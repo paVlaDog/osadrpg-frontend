@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+:root {
+  --back-color-1: tan;
+  --back-color-2: indianred;
+  --back-color-3: peachpuff;
+  --border-color-1: goldenrod;
+  --text-color-1: darkred;
+  --text-color-2: white;
+
+
+  background-color: bisque;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* :root {
+  --back-color-1: #61892F;
+  --back-color-2: #61892F;
+  --back-color-3: #f4976c;
+  --border-color-1: #303C6C;
+  --text-color-1: #f4976c;
+  --text-color-2: #D2FDFF;
+
+
+  background-color: #D2FDFF;
+} */
+
+html {
+  padding: 1rem;
+  min-width: 600px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 10000px) {
+  :root {
+    font-size: 18px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1280px) {
+  :root {
+    font-size: 16px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  :root {
+    font-size: 12px;
   }
 }

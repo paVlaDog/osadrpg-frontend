@@ -1,0 +1,27 @@
+.header {
+    position: relative;
+    height: 3rem;
+    background-color: var(--border-color-1);
+    display: flex;
+    justify-content: space-between;
+}
+  
+.navbar {
+    padding: 0.5rem 0.5rem;
+    font-size: larger;
+}
+
+.navbar * {
+    display: inline-flex;
+    margin: 0 1rem;
+    color: var(--back-color-3);
+}
+
+.active {
+    border-bottom: 4px solid var(--back-color-3);
+}
+
+.nonactive {
+
+}
+  

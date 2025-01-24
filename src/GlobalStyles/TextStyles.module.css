@@ -1,0 +1,19 @@
+.whiteText {
+  color: var(--back-color-3);
+  margin: 0 2px;
+}
+
+.bigBoldRedText {
+  font-size: larger;
+  font-weight: bold;
+  padding: 0 5px;
+  color: var(--text-color-1);
+  margin: 0 0 5px 0;
+}
+
+.boldRedText {
+  font-weight: bold;
+  padding: 0 5px;
+  color: var(--text-color-1);
+  margin: 0 0 5px 0;
+}

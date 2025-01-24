@@ -1,0 +1,11 @@
+.simpleButton {
+    min-width: 30px;
+    padding: 2px 5px;
+    margin: 5px 5px;
+    border: 1px solid var(--border-color-1);
+    border-radius: 5px;
+    background-color: var(--border-color-1);
+    color: var(--text-color-2);
+    text-align: center;
+    cursor: pointer;
+}

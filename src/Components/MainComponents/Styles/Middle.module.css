@@ -1,0 +1,23 @@
+.middle {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.middle .mainMain {
+  width: 100%;
+}
+
+.middle .mainMain nav {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.middle .mainMain nav h4 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.middle .mainMain nav .active {
+  border-bottom: 2px solid var(--back-color-2);
+}

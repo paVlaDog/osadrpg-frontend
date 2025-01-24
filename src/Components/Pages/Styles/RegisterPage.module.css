@@ -1,0 +1,9 @@
+.enterPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem auto;
+    border: 3px solid var(--border-color-1);
+    border-radius: 5px;
+    width: 25rem;
+}

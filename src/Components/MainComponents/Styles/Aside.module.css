@@ -1,0 +1,12 @@
+.middleAside {
+    width: 20rem;
+}
+
+.asideInformationBlock {
+    text-align: center;
+    margin: 0.5rem;
+    border: 3px solid var(--border-color-1);
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+}

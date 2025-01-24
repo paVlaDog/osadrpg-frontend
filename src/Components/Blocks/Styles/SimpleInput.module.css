@@ -1,0 +1,10 @@
+.simpleInput {
+    margin: 5px 0;
+    padding: 2px 5px;
+    background-color: var(--back-color-3);
+    background-clip: padding-box;
+    border: 1px solid var(--border-color-1);
+    border-radius: 0.25rem;
+    color: var(--border-color-1);
+    text-align: center;
+}
